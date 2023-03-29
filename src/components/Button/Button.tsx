@@ -1,4 +1,5 @@
 import React from "react";
+import "./button.css";
 
 
 export interface ButtonProps {
@@ -7,7 +8,7 @@ export interface ButtonProps {
 }
 
 const Button = ({ label }: ButtonProps) => {
-  return <button>{label}</button>
+  return <button className="btn">{label}</button>
 }
 
 export default Button;

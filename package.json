@@ -1,6 +1,6 @@
 {
   "name": "ui-component-test-library",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "UI library created with next.js (react.js typeScrit), storybook and published npm package",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -29,5 +29,9 @@
   "peerDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "dependencies": {
+    "postcss": "^8.4.21",
+    "rollup-plugin-postcss": "^4.0.2"
   }
 }
