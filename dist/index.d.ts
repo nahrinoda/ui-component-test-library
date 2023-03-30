@@ -1,4 +1,3 @@
-/// <reference types="react" />
 interface ButtonProps {
     label: string;
 }

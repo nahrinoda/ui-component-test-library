@@ -1,6 +1,6 @@
 {
   "name": "ui-component-test-library",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "private": false,
   "description": "A Component Library for Building react/typescript applications with tailwindcss",
   "author": "Nahrin Yousif",
