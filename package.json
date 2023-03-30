@@ -1,12 +1,16 @@
 {
-  "name": "my-project",
-  "version": "0.1.0",
-  "private": true,
+  "name": "ui-component-test-library",
+  "version": "0.0.4",
+  "private": false,
+  "description": "A Component Library for Building react/typescript applications with tailwindcss",
+  "author": "Nahrin Yousif",
+  "license": "ISC",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "rollup-build-lib": "rollup -c"
   },
   "dependencies": {
     "@types/node": "18.15.11",
@@ -25,9 +29,23 @@
     "@rollup/plugin-typescript": "^11.0.0",
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.21",
+    "react": "18.2.0",
+    "@types/react": "18.0.31",
+    "react-dom": "18.2.0",
     "rollup": "^3.20.2",
     "rollup-plugin-dts": "^5.3.0",
     "tailwindcss": "^3.3.0",
-    "tslib": "^2.5.0"
-  }
+    "tslib": "^2.5.0",
+    "typescript": "5.0.2"
+  },
+  "peerDependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts"
 }
